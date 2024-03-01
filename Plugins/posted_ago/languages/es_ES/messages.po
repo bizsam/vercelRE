@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posted Ago 1.1\n"
+"POT-Creation-Date: 2013-04-11 07:58+0100\n"
+"PO-Revision-Date: 2013-04-11 07:59+0100\n"
+"Last-Translator: Juanjo García <jjgarcia@diseno-eag.com>\n"
+"Language-Team: Diseño Edit Art Group S.L. <juanjogarcia@editartgroup.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/"
+"posted_ago\n"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:8
+msgid "Plugin Configuration"
+msgstr "Configuración del Plugin "
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:11
+msgid "What is Posted Ago Plugin?"
+msgstr "¿Qué es el plugin \"Posted Ago\"?"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:14
+msgid ""
+"Posted Ago allows the Published and Modified Date to show in Real time. "
+"example <b>2 Hours 3 Seconds Ago</b>"
+msgstr ""
+"Posted Ago permite mostrar la Fecha de publicación y modificación en tiempo "
+"real. Por ejemplo <b> 2 Horas 3 segundos </b>"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:17
+msgid "How to Configure the Posted Ago Plugin"
+msgstr "¿Cómo configurar el Plugin \"Posted Ago\"?"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:20
+msgid "Locate this in your themes item.php, main.php, search_list.php"
+msgstr "Localiza esto en tema item.php, main.php, search_list.php"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:35
+msgid "Simple replace <b>osc_format_date</b> with <b>posted_ago</b>"
+msgstr "Simplemente sustituye <b>osc_format_date</b> con <b>posted_ago</b>"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:50
+msgid "You should now have the Posted Ago Plugin working."
+msgstr "Ahora deberias tener funcionando el Plugin \"Posted Ago\"."
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:53
+msgid "How to Uninstall the Posted Ago Plugin"
+msgstr "¿Cómo desinstalar el Plugin \"Posted Ago\"?"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:56
+msgid ""
+"To uninstall this plugin you will need to edit the item.php, main.php, "
+"search_list.php and find this below"
+msgstr ""
+"Para desinstalar este plugin necesitas editar los archivos item.php, main."
+"php, search_list.php y encontrar esto de más adelante"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:62
+msgid "Simply Replace it with this"
+msgstr "Simplemente sustituye esto con esto"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de otros/posted_ago/help.php:68
+msgid "Then Click Manage Plugins - Posted Ago - Uninstall to remove the plugin"
+msgstr ""
+"Luego haz clic en Gestionar Plugins -  Posted Ago - Desinstalar para "
+"eliminar el plugin"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:21
+msgid "Decade"
+msgstr "década"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:22
+msgid "Year"
+msgstr "año"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:23
+msgid "Month"
+msgstr "mes"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:24
+msgid "Week"
+msgstr "semana"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:25
+msgid "Day"
+msgstr "día"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:26
+msgid "Hour"
+msgstr "hora"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:27
+msgid "Minute"
+msgstr "minuto"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:28
+msgid "Second"
+msgstr "segundo"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:35
+msgid "s"
+msgstr "s"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:44
+msgid "Modified"
+msgstr "Modificado"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:44 otros/posted_ago/index.php:46
+msgid "Ago"
+msgstr "hace"
+
+#: /Users/Juanjo/Editartgroup/OSCLASS/plugins/_de
+#: otros/posted_ago/index.php:46
+msgid "Posted"
+msgstr "Publicado"

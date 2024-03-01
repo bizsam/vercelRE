@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rich Edit Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-13 13:24+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
+"Language-Team: OsclassPoint.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/conf.php:34 admin/conf.php:38
+msgid "Congratulations. The plugin is now configured"
+msgstr ""
+
+#: admin/conf.php:69 index.php:100
+msgid "Rich edit options"
+msgstr ""
+
+#: admin/conf.php:76
+msgid "Theme"
+msgstr ""
+
+#: admin/conf.php:78
+msgid "Skin"
+msgstr ""
+
+#: admin/conf.php:80
+msgid "Skin variant"
+msgstr ""
+
+#: admin/conf.php:82
+msgid "Width (need units, px or %)"
+msgstr ""
+
+#: admin/conf.php:84
+msgid "Height (need units, px or %)"
+msgstr ""
+
+#: admin/conf.php:86
+msgid "Line of buttons #1 (separated them by comma)"
+msgstr ""
+
+#: admin/conf.php:88
+msgid "Line of buttons #2 (separated them by comma)"
+msgstr ""
+
+#: admin/conf.php:90
+msgid "Line of buttons #3 (separated them by comma)"
+msgstr ""
+
+#: admin/conf.php:92
+msgid "Plugins (separated them by comma)"
+msgstr ""
+
+#: admin/conf.php:94
+#, php-format
+msgid "Plugins are located in %s. Feel free to add more plugins if you need it"
+msgstr ""
+
+#: admin/conf.php:96
+msgid "Update"
+msgstr ""
+
+#: admin/conf.php:104
+msgid "Preview of the editor"
+msgstr ""
+
+#: admin/conf.php:106
+msgid "This is a preview of how the rich editor will look like"
+msgstr ""
+
+#: admin/conf.php:110
+#, php-format
+msgid "Learn more about the configuration of TinyMCE at %s"
+msgstr ""
+
+#: index.php:102
+msgid "Settings"
+msgstr ""
+
+#: index.php:109
+msgid "Richedit options"
+msgstr ""

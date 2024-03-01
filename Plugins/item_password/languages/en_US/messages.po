@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Item Password Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-15 13:56+0100\n"
+"PO-Revision-Date: 2023-03-15 13:56+0100\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:35 index.php:55 index.php:64
+#: index.php:94
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:21
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/configure.php:30
+msgid ""
+"Plugin stores 2 passwords - one entered by customer and one entered by "
+"admin, so admin does not see and change customer password and vice versa."
+msgstr ""
+
+#: admin/configure.php:47
+msgid "Enable Item Password"
+msgstr ""
+
+#: admin/configure.php:51
+msgid "When enabled, users can define their edit/remove password for listing."
+msgstr ""
+
+#: admin/configure.php:56
+msgid "Hook Edit Button"
+msgstr ""
+
+#: admin/configure.php:60
+msgid ""
+"When enabled, edit listing button is automatically hooked to item page "
+"(item_detail)."
+msgstr ""
+
+#: admin/configure.php:65
+msgid "Hook Delete Button"
+msgstr ""
+
+#: admin/configure.php:69
+msgid ""
+"When enabled, delete listing button is automatically hooked to item page "
+"(item_detail)."
+msgstr ""
+
+#: admin/configure.php:74
+msgid "Hook Input to Form"
+msgstr ""
+
+#: admin/configure.php:78
+msgid ""
+"When enabled, password input is automatically hooked to item publish & edit "
+"page."
+msgstr ""
+
+#: admin/configure.php:83
+msgid "On Items with Password Only"
+msgstr ""
+
+#: admin/configure.php:87
+msgid ""
+"When enabled, edit & delete buttons will be shown only on items those has "
+"password defined by users."
+msgstr ""
+
+#: admin/configure.php:92
+msgid "On Items with User"
+msgstr ""
+
+#: admin/configure.php:96
+msgid ""
+"When enabled, edit & delete buttons are shown also on items those were "
+"created by registered users."
+msgstr ""
+
+#: admin/configure.php:97
+msgid "Warning!"
+msgstr ""
+
+#: admin/configure.php:97
+msgid "This feature is available only on Osclass v8.0.1 and later."
+msgstr ""
+
+#: admin/configure.php:102
+msgid "Password Input Type"
+msgstr ""
+
+#: admin/configure.php:105
+msgid "Text (unmasked)"
+msgstr ""
+
+#: admin/configure.php:106
+msgid "Password (masked)"
+msgstr ""
+
+#: admin/configure.php:110
+msgid ""
+"Select type on input that will be used for password. Text type is not masked "
+"and password is exposed in front. Password type is masked and password is "
+"not shown."
+msgstr ""
+
+#: admin/configure.php:115
+msgid "Style Buttons"
+msgstr ""
+
+#: admin/configure.php:119
+msgid ""
+"When enabled, edit & delete buttons will be styled (formatted) by plugin. "
+"Otherwise, only basic links will be shown with no formatting."
+msgstr ""
+
+#: admin/configure.php:129
+msgid "This is demo site"
+msgstr ""
+
+#: admin/configure.php:129 admin/configure.php:131
+msgid "Save"
+msgstr ""
+
+#: admin/configure.php:142
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/configure.php:145
+msgid ""
+"No theme modification are required to use all functions of plugin, but in "
+"order to provide more integrated view of plugin, followimg functions are "
+"available."
+msgstr ""
+
+#: admin/configure.php:147
+msgid "Edit button code:"
+msgstr ""
+
+#: admin/configure.php:152
+msgid "Delete button code:"
+msgstr ""
+
+#: admin/configure.php:157
+msgid "Custom password input on publish/edit page:"
+msgstr ""
+
+#: functions.php:35
+msgid "Edit"
+msgstr ""
+
+#: functions.php:41
+msgid "Edit listing"
+msgstr ""
+
+#: functions.php:43
+msgid "Enter password to edit this listing."
+msgstr ""
+
+#: functions.php:46 functions.php:103
+msgid "Enter your password"
+msgstr ""
+
+#: functions.php:50 functions.php:113
+msgid "Submit"
+msgstr ""
+
+#: functions.php:92
+msgid "Delete"
+msgstr ""
+
+#: functions.php:98
+msgid "Delete listing"
+msgstr ""
+
+#: functions.php:100
+msgid "Enter password to remove this listing."
+msgstr ""
+
+#: functions.php:106
+#, php-format
+msgid "Please confirm removal by entering word \"%s\" into box bellow."
+msgstr ""
+
+#: functions.php:106 functions.php:109 functions.php:211 functions.php:237
+msgid "DELETE"
+msgstr ""
+
+#: functions.php:152 functions.php:203
+msgid "Too many failed attempts. Try again in few minutes."
+msgstr ""
+
+#: functions.php:174 functions.php:233
+msgid "Password does not match!"
+msgstr ""
+
+#: functions.php:178
+msgid "Password to edit item has not been defined yet!"
+msgstr ""
+
+#: functions.php:181 functions.php:244
+msgid "Password is empty or listing does not exist!"
+msgstr ""
+
+#: functions.php:218
+msgid "Listing has been successfully removed"
+msgstr ""
+
+#: functions.php:220
+msgid "This is demo site, you cannot remove listing there!"
+msgstr ""
+
+#: functions.php:237
+#, php-format
+msgid "Confirmation word not correct. Entered: %s, expected: %s"
+msgstr ""
+
+#: functions.php:241
+msgid "Password to delete item has not been defined yet!"
+msgstr ""
+
+#: functions.php:331 functions.php:340
+msgid "Edit/Delete password"
+msgstr ""
+
+#: functions.php:334
+msgid "Admin password will not change/remove password entered by customer."
+msgstr ""
+
+#: index.php:79
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:80
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:81
+msgid "Contact Us"
+msgstr ""

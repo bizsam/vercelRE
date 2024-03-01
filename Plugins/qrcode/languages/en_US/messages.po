@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Generator Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-02 14:01+0100\n"
+"PO-Revision-Date: 2024-02-02 14:01+0100\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+
+#: admin/configure.php:3 admin/configure.php:46 index.php:98 index.php:107
+#: index.php:136
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:16
+msgid "Settings were successfully saved."
+msgstr ""
+
+#: admin/configure.php:23
+msgid "QR code images removed successfully."
+msgstr ""
+
+#: admin/configure.php:51
+msgid "QR Code Image Size"
+msgstr ""
+
+#: admin/configure.php:56
+msgid "Smallest"
+msgstr ""
+
+#: admin/configure.php:57
+msgid "Largest"
+msgstr ""
+
+#: admin/configure.php:63
+msgid ""
+"Size of generated QR code image. Do not use too large image until required. "
+"Default: 3"
+msgstr ""
+
+#: admin/configure.php:64
+msgid ""
+"Size change does not impact existing QR code images. To force regeneration, "
+"clear all existing QR code images."
+msgstr ""
+
+#: admin/configure.php:70
+msgid "Asset Versioning"
+msgstr ""
+
+#: admin/configure.php:73
+msgid ""
+"When enabled, ?v=YYYYMMDDHHIISS is added to image URL that will block image "
+"caching by browser & server. Used mainly for testing & development."
+msgstr ""
+
+#: admin/configure.php:78
+msgid "Item Page Hook"
+msgstr ""
+
+#: admin/configure.php:81
+msgid ""
+"Use hook on listing page or listing loop to show image. Example: "
+"item_detail. Keep blank to disable."
+msgstr ""
+
+#: admin/configure.php:90
+msgid "Clean all QR code images"
+msgstr ""
+
+#: admin/configure.php:94
+#, php-format
+msgid "You have %d QR code images."
+msgstr ""
+
+#: admin/configure.php:105
+msgid "This is demo site"
+msgstr ""
+
+#: admin/configure.php:105 admin/configure.php:107
+msgid "Save"
+msgstr ""
+
+#: functions.php:43
+msgid "QR code"
+msgstr ""
+
+#: functions.php:283
+msgid "All categories"
+msgstr ""
+
+#: functions.php:366
+msgid "Page:"
+msgstr ""
+
+#: index.php:69
+#, php-format
+msgid ""
+"Force update of \"%s\" completed! Verify plugin functionality, in case of "
+"problems reinstall plugin."
+msgstr ""
+
+#: index.php:69
+msgid "QR Code Generator Plugin"
+msgstr ""
+
+#: index.php:122
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:123
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:124
+msgid "Contact Us"
+msgstr ""
+
+#: model/ModelQRC.php:79
+#, php-format
+msgid ""
+"Update of plugin \"%s\" failed on DB version \"%s\". Please enable %s to see "
+"error details. Failed query is listed below."
+msgstr ""
+
+#: model/ModelQRC.php:79
+msgid "Business Profile Plugin"
+msgstr ""
+
+#: model/ModelQRC.php:79
+msgid "DB debug mode"
+msgstr ""
+
+#: model/ModelQRC.php:81
+msgid "Ignore error and force plugin update"
+msgstr ""
+
+#: model/ModelQRC.php:82
+msgid ""
+"Never force update plugin until you are sure that your database structure "
+"match to model/struct.sql file! It may lead to unexpected plugin "
+"functionality. Try to reinstall plugin."
+msgstr ""

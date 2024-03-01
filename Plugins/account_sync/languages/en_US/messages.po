@@ -1,0 +1,804 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Account Synchronization Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-17 09:25+0200\n"
+"PO-Revision-Date: 2021-09-17 09:25+0200\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/account_edit.php:3
+msgid "Account"
+msgstr ""
+
+#: admin/account_edit.php:25
+msgid "Account successfully created."
+msgstr ""
+
+#: admin/account_edit.php:28
+msgid "Account successfully updated."
+msgstr ""
+
+#: admin/account_edit.php:55
+msgid "Account successfully removed"
+msgstr ""
+
+#: admin/account_edit.php:68
+msgid "Account configuration"
+msgstr ""
+
+#: admin/account_edit.php:70 admin/accounts.php:91
+msgid ""
+"Initiate feed and download user data from this account/domain. Do this just "
+"in case of first setup or you are sure this account has more accurate user "
+"information."
+msgstr ""
+
+#: admin/account_edit.php:70 admin/accounts.php:91
+msgid "Feed now"
+msgstr ""
+
+#: admin/account_edit.php:82
+msgid ""
+"Account identifies other website/instance from that you want to feed data "
+"and to that you want to stream new data."
+msgstr ""
+
+#: admin/account_edit.php:87 admin/log_details.php:50
+msgid "Account ID"
+msgstr ""
+
+#: admin/account_edit.php:90
+msgid ""
+"Total number of user records streamed/synced to this account. Field is not "
+"editable."
+msgstr ""
+
+#: admin/account_edit.php:95 admin/accounts.php:44 functions.php:15
+msgid "Name"
+msgstr ""
+
+#: admin/account_edit.php:98
+msgid "Name or identifier of this account. Example: my.domain.com"
+msgstr ""
+
+#: admin/account_edit.php:102 admin/accounts.php:45
+msgid "URL"
+msgstr ""
+
+#: admin/account_edit.php:106
+msgid ""
+"URL to another osclass installation from where / to which you want to get / "
+"receive data."
+msgstr ""
+
+#: admin/account_edit.php:107
+msgid ""
+"<b>WARNING:</b> URL must end with \"/\" sign. Example: https://mysite.com/, "
+"http://sub.mysite.com/"
+msgstr ""
+
+#: admin/account_edit.php:112 admin/configure.php:45
+msgid "API Key"
+msgstr ""
+
+#: admin/account_edit.php:115
+msgid ""
+"API Key of target installation. Can be found at Configure page of this "
+"plugin on target domain."
+msgstr ""
+
+#: admin/account_edit.php:119
+msgid "Columns"
+msgstr ""
+
+#: admin/account_edit.php:129
+msgid ""
+"Select list of columns those will be synchronized against this account. "
+"Custom columns can be defined at Configure page."
+msgstr ""
+
+#: admin/account_edit.php:130
+msgid ""
+"<b>WARNING:</b> Carefuly with IDs - Foreign/Primary keys (FK/PK)!!! If keys "
+"are missing in this installation, synchronization will fail !!!"
+msgstr ""
+
+#: admin/account_edit.php:135
+msgid "Last User ID"
+msgstr ""
+
+#: admin/account_edit.php:138
+msgid ""
+"Last user ID fed from this account. Edit to 0 if you want to restart "
+"synchronization from this account."
+msgstr ""
+
+#: admin/account_edit.php:142
+msgid "Synced from"
+msgstr ""
+
+#: admin/account_edit.php:145
+msgid ""
+"Total number of user records fed/synced from this account. Set to 0 to reset "
+"statistics."
+msgstr ""
+
+#: admin/account_edit.php:149
+msgid "Synced to"
+msgstr ""
+
+#: admin/account_edit.php:152
+msgid ""
+"Total number of user records streamed/synced to this account. Set to 0 to "
+"reset statistics."
+msgstr ""
+
+#: admin/account_edit.php:160
+msgid "Create"
+msgstr ""
+
+#: admin/account_edit.php:162
+msgid "Update"
+msgstr ""
+
+#: admin/account_edit.php:174
+msgid "Synchronization details"
+msgstr ""
+
+#: admin/account_edit.php:178
+msgid ""
+"Here you can find details about last synchronization, but also sync "
+"statistics."
+msgstr ""
+
+#: admin/account_edit.php:183 admin/account_edit.php:225 admin/accounts.php:47
+#: admin/logs.php:60 admin/logs.php:89
+msgid "Status"
+msgstr ""
+
+#: admin/account_edit.php:186
+msgid "Status of last synchronization. Field is not editable."
+msgstr ""
+
+#: admin/account_edit.php:190 admin/accounts.php:48
+msgid "Message"
+msgstr ""
+
+#: admin/account_edit.php:193
+msgid "Message from last synchronization. Field is not editable."
+msgstr ""
+
+#: admin/account_edit.php:197
+msgid "Synchronization date"
+msgstr ""
+
+#: admin/account_edit.php:200
+msgid "Timestamp of last synchronization. Field is not editable."
+msgstr ""
+
+#: admin/account_edit.php:211
+msgid "Account logs"
+msgstr ""
+
+#: admin/account_edit.php:215
+msgid "Last 200 logs related to this Account"
+msgstr ""
+
+#: admin/account_edit.php:220 admin/accounts.php:43 admin/log_details.php:40
+#: admin/logs.php:84
+msgid "ID"
+msgstr ""
+
+#: admin/account_edit.php:221 admin/log_details.php:45 admin/logs.php:35
+#: admin/logs.php:85
+msgid "Type"
+msgstr ""
+
+#: admin/account_edit.php:222 admin/logs.php:45 admin/logs.php:86
+msgid "Account/Feeder"
+msgstr ""
+
+#: admin/account_edit.php:223 admin/log_details.php:85 admin/logs.php:50
+#: admin/logs.php:87
+msgid "Content"
+msgstr ""
+
+#: admin/account_edit.php:224 admin/log_details.php:80 admin/logs.php:55
+#: admin/logs.php:88
+msgid "Response"
+msgstr ""
+
+#: admin/account_edit.php:226 admin/log_details.php:70 admin/logs.php:65
+#: admin/logs.php:90
+msgid "Date"
+msgstr ""
+
+#: admin/account_edit.php:232 admin/logs.php:96
+msgid "No logs has been found"
+msgstr ""
+
+#: admin/account_edit.php:246 admin/logs.php:109
+msgid "API key"
+msgstr ""
+
+#: admin/account_edit.php:247 admin/log_details.php:86 admin/logs.php:110
+msgid "- No content received -"
+msgstr ""
+
+#: admin/account_edit.php:252 admin/logs.php:115
+msgid "View"
+msgstr ""
+
+#: admin/account_edit.php:255 admin/log_details.php:29 admin/logs.php:118
+msgid "Are you sure you want to delete this log record?"
+msgstr ""
+
+#: admin/accounts.php:3 admin/accounts.php:31 index.php:312 index.php:344
+msgid "Accounts"
+msgstr ""
+
+#: admin/accounts.php:15
+msgid "Synchronization has finished."
+msgstr ""
+
+#: admin/accounts.php:35
+msgid ""
+"Here you can define accounts - other domains/websites with those you want to "
+"synchronize user accounts of this website. This installation will send user "
+"data to bellow defined accounts as well this installation can feed user data "
+"from bellow defined accounts."
+msgstr ""
+
+#: admin/accounts.php:36
+msgid ""
+"Press \"Feed now\" button to start feeding data from account/domain. This "
+"may be repeated several times until all user records are downloaded. "
+"Progress is reported in response message."
+msgstr ""
+
+#: admin/accounts.php:37 admin/configure.php:81
+msgid ""
+"Osclass CRON setup is essential for proper functionality of this plugin, "
+"otherwise new user records will not be streamed to bellow mentioned accounts."
+msgstr ""
+
+#: admin/accounts.php:38 admin/configure.php:82
+msgid ""
+"For best performance, we strongly recommend to create CRON command to "
+"execute following URL ideally every 1-5 minutes:"
+msgstr ""
+
+#: admin/accounts.php:46
+msgid "Synced feed/stream"
+msgstr ""
+
+#: admin/accounts.php:49
+msgid "Last sync"
+msgstr ""
+
+#: admin/accounts.php:55
+msgid "No accounts has been found"
+msgstr ""
+
+#: admin/accounts.php:92
+msgid "Edit"
+msgstr ""
+
+#: admin/accounts.php:95
+msgid "Are you sure you want to delete this account?"
+msgstr ""
+
+#: admin/accounts.php:105
+msgid "Create a new account"
+msgstr ""
+
+#: admin/accounts.php:112
+msgid "Streaming status (pending data to be streamed)"
+msgstr ""
+
+#: admin/accounts.php:116
+msgid ""
+"List of changes (updates/removal) made on this domain, those will be "
+"streamed using upcoming CRON call to all above listed accounts."
+msgstr ""
+
+#: admin/accounts.php:120
+msgid "User updates to be streamed:"
+msgstr ""
+
+#: admin/accounts.php:129 admin/accounts.php:131 functions.php:209
+msgid "UPDATE"
+msgstr ""
+
+#: admin/accounts.php:131
+msgid "User record not found, it was probably removed meanwhile"
+msgstr ""
+
+#: admin/accounts.php:135
+msgid "No user records updated from last CRON execution"
+msgstr ""
+
+#: admin/accounts.php:141
+msgid "User removals to be streamed:"
+msgstr ""
+
+#: admin/accounts.php:147
+msgid "REMOVAL"
+msgstr ""
+
+#: admin/accounts.php:150
+msgid "No user records removed from last CRON execution"
+msgstr ""
+
+#: admin/accounts.php:157
+msgid "Execute Stream now!"
+msgstr ""
+
+#: admin/configure.php:3 admin/configure.php:27 index.php:302 index.php:311
+#: index.php:343
+msgid "Configure"
+msgstr ""
+
+#: admin/configure.php:18
+msgid "Settings were successfully saved"
+msgstr ""
+
+#: admin/configure.php:37
+msgid "This plugin has documentation included, please ready it first:"
+msgstr ""
+
+#: admin/configure.php:37
+msgid "Download documentation (PDF)"
+msgstr ""
+
+#: admin/configure.php:41
+msgid ""
+"Enter name/identificator of your site and API key, that is used by other "
+"osclass installations to feed data from this website."
+msgstr ""
+
+#: admin/configure.php:48
+msgid ""
+"API key is used by other osclass installations to feed account data from "
+"this website."
+msgstr ""
+
+#: admin/configure.php:52
+msgid "Custom user columns"
+msgstr ""
+
+#: admin/configure.php:55
+msgid ""
+"Enter custom column names from user table, if pre-defined ones are not "
+"sufficient or you are missing any of them."
+msgstr ""
+
+#: admin/configure.php:59
+msgid "Feed limit"
+msgstr ""
+
+#: admin/configure.php:62
+msgid ""
+"Limit number of items those can be fed in 1 call. Default is 200. Powerful "
+"server can handle thousands."
+msgstr ""
+
+#: admin/configure.php:67
+msgid "Save"
+msgstr ""
+
+#: admin/configure.php:77
+msgid "Plugin Setup"
+msgstr ""
+
+#: admin/configure.php:80
+msgid "Plugin does not require any modifications in theme files."
+msgstr ""
+
+#: admin/log_details.php:3 admin/log_details.php:35
+msgid "Log details"
+msgstr ""
+
+#: admin/log_details.php:13
+msgid "Log record successfully removed"
+msgstr ""
+
+#: admin/log_details.php:26
+msgid "Here you can find all details about log record"
+msgstr ""
+
+#: admin/log_details.php:29
+msgid "Remove log"
+msgstr ""
+
+#: admin/log_details.php:55
+msgid "Account Name/Identifier"
+msgstr ""
+
+#: admin/log_details.php:60
+msgid "Account Key"
+msgstr ""
+
+#: admin/log_details.php:65
+msgid "IP Address"
+msgstr ""
+
+#: admin/log_details.php:75
+msgid "Status Code"
+msgstr ""
+
+#: admin/logs.php:3 admin/logs.php:21
+msgid "Synchronization Logs"
+msgstr ""
+
+#: admin/logs.php:25
+msgid ""
+"Log types: PROCESS - processing of single user record; FEED - feeding of "
+"data from other domains/accounts; STREAM - streaming of data to other "
+"domains/accounts."
+msgstr ""
+
+#: admin/logs.php:26
+msgid "By default, last 200 logs are shown."
+msgstr ""
+
+#: admin/logs.php:37
+msgid "All"
+msgstr ""
+
+#: admin/logs.php:38
+msgid "Feed"
+msgstr ""
+
+#: admin/logs.php:39
+msgid "Stream"
+msgstr ""
+
+#: admin/logs.php:40
+msgid "Process"
+msgstr ""
+
+#: admin/logs.php:70
+msgid "Limit"
+msgstr ""
+
+#: admin/logs.php:76
+msgid "Search"
+msgstr ""
+
+#: cron.php:11
+msgid "UPDATE STREAM"
+msgstr ""
+
+#: cron.php:27
+msgid "REMOVAL STREAM"
+msgstr ""
+
+#: cron.php:37
+msgid "*NO USER RECORDS UPDATED OR REMOVED*"
+msgstr ""
+
+#: functions.php:12
+msgid "ID (PK)"
+msgstr ""
+
+#: functions.php:13
+msgid "Registration date"
+msgstr ""
+
+#: functions.php:14
+msgid "Modification date"
+msgstr ""
+
+#: functions.php:16
+msgid "User Description (Info/About)"
+msgstr ""
+
+#: functions.php:17
+msgid "User Business Profile (Plugin)"
+msgstr ""
+
+#: functions.php:18
+msgid "User name"
+msgstr ""
+
+#: functions.php:19
+msgid "Password"
+msgstr ""
+
+#: functions.php:20
+msgid "Secret code"
+msgstr ""
+
+#: functions.php:21
+msgid "Email"
+msgstr ""
+
+#: functions.php:22
+msgid "Website URL"
+msgstr ""
+
+#: functions.php:23
+msgid "Land phone"
+msgstr ""
+
+#: functions.php:24
+msgid "Mobile phone"
+msgstr ""
+
+#: functions.php:25
+msgid "Is enabled"
+msgstr ""
+
+#: functions.php:26
+msgid "Is active"
+msgstr ""
+
+#: functions.php:27
+msgid "Pass code"
+msgstr ""
+
+#: functions.php:28
+msgid "Pass date"
+msgstr ""
+
+#: functions.php:29
+msgid "Pass IP"
+msgstr ""
+
+#: functions.php:30
+msgid "Country code (FK)"
+msgstr ""
+
+#: functions.php:31
+msgid "Country name"
+msgstr ""
+
+#: functions.php:32
+msgid "Address"
+msgstr ""
+
+#: functions.php:33
+msgid "ZIP"
+msgstr ""
+
+#: functions.php:34
+msgid "Region ID (FK)"
+msgstr ""
+
+#: functions.php:35
+msgid "Region name"
+msgstr ""
+
+#: functions.php:36
+msgid "City ID (FK)"
+msgstr ""
+
+#: functions.php:37
+msgid "City name"
+msgstr ""
+
+#: functions.php:38
+msgid "City area ID (FK)"
+msgstr ""
+
+#: functions.php:39
+msgid "City area name"
+msgstr ""
+
+#: functions.php:40
+msgid "Latitude"
+msgstr ""
+
+#: functions.php:41
+msgid "Longitude"
+msgstr ""
+
+#: functions.php:42
+msgid "Is company"
+msgstr ""
+
+#: functions.php:43
+msgid "Item count"
+msgstr ""
+
+#: functions.php:44
+msgid "Comments count"
+msgstr ""
+
+#: functions.php:45
+msgid "Last access date"
+msgstr ""
+
+#: functions.php:46
+msgid "Last access IP"
+msgstr ""
+
+#: functions.php:47
+msgid "Failed login count"
+msgstr ""
+
+#: functions.php:48
+msgid "Last failed login date"
+msgstr ""
+
+#: functions.php:49
+msgid "Profile image"
+msgstr ""
+
+#: functions.php:50
+msgid "Native country name"
+msgstr ""
+
+#: functions.php:51
+msgid "Native region name"
+msgstr ""
+
+#: functions.php:52
+msgid "Native city name"
+msgstr ""
+
+#: functions.php:53
+msgid "Is GDPR Terms & Conditions checked"
+msgstr ""
+
+#: functions.php:54
+msgid "Is GDPR Privacy policy checked"
+msgstr ""
+
+#: functions.php:55
+msgid "Is GDPR Newsletter checked"
+msgstr ""
+
+#: functions.php:65
+#, php-format
+msgid "Custom: %s"
+msgstr ""
+
+#: functions.php:88
+#, php-format
+msgid "REMOVAL: User record successfully removed %s"
+msgstr ""
+
+#: functions.php:100
+#, php-format
+msgid "REMOVAL: User record removal failed %s"
+msgstr ""
+
+#: functions.php:124
+msgid "FAILED: User email is missing or empty"
+msgstr ""
+
+#: functions.php:185
+#, php-format
+msgid "Image download failed: %s / %s"
+msgstr ""
+
+#: functions.php:203
+msgid "INSERT"
+msgstr ""
+
+#: functions.php:223
+#, php-format
+msgid ""
+"SQL Processing error!!! Make sure all columns defined in Account setting "
+"exists in your t_user table (ID: %s). %s: %s"
+msgstr ""
+
+#: functions.php:243
+msgid "Description update"
+msgstr ""
+
+#: functions.php:257
+msgid "Business profile update"
+msgstr ""
+
+#: functions.php:274
+#, php-format
+msgid "%s: User record successfully processed %s %s"
+msgstr ""
+
+#: functions.php:363
+#, php-format
+msgid ""
+"Invalid data received, probably incorrect configuration. (JSON output: %s)"
+msgstr ""
+
+#: index.php:33
+msgid "API Key is missing"
+msgstr ""
+
+#: index.php:39
+msgid "API Key is invalid - no account found"
+msgstr ""
+
+#: index.php:57
+#, php-format
+msgid "Streamed user data received successfully (#%s, %s, %s)"
+msgstr ""
+
+#: index.php:61
+msgid "Streamed user record invalid, pk_i_id or s_email is missing"
+msgstr ""
+
+#: index.php:80
+#, php-format
+msgid "User data removal received successfully (#%s, %s, %s)"
+msgstr ""
+
+#: index.php:84
+msgid ""
+"User record invalid, user has not been found (it might not exists on this "
+"domain or was already removed)"
+msgstr ""
+
+#: index.php:110
+#, php-format
+msgid ""
+"Progress: %s (Total stats - Retrieved: %s, Remaining: %s, Total: %s / Last "
+"request stats - Retrieved : %s, Limit: %s, From user ID: %s)"
+msgstr ""
+
+#: index.php:171
+#, php-format
+msgid "User data streamed successfully (#%s, %s, %s)"
+msgstr ""
+
+#: index.php:175
+#, php-format
+msgid "User data stream failed (#%s, %s, %s) - %s"
+msgstr ""
+
+#: index.php:194
+#, php-format
+msgid "SUCCESS: Streaming user update %s to account %s: %s"
+msgstr ""
+
+#: index.php:197
+#, php-format
+msgid ""
+"ERROR: Streaming of user update %s failed, user has been probably removed"
+msgstr ""
+
+#: index.php:226
+#, php-format
+msgid "User data removal streamed successfully (%s)"
+msgstr ""
+
+#: index.php:230
+#, php-format
+msgid "User data removal stream failed (%s) - %s"
+msgstr ""
+
+#: index.php:249
+#, php-format
+msgid "SUCCESS: Streaming user removal (%s) to account %s: %s"
+msgstr ""
+
+#: index.php:313 index.php:345
+msgid "Logs"
+msgstr ""
+
+#: index.php:328
+msgid "Report Bug"
+msgstr ""
+
+#: index.php:329
+msgid "Support Forums"
+msgstr ""
+
+#: index.php:330
+msgid "Contact Us"
+msgstr ""

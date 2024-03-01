@@ -1,0 +1,36 @@
+.itp-body, .itp-body * {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.itp-body a {text-decoration:none;}
+.itp-body button {background:#ccc;border:none;box-shadow:none;text-shadow:none;text-decoration:none;color:#333;}
+
+/* BUTTONS */
+.itp-item-buttons-wrap {display:inline-block;width:100%;margin:10px 0 10px 0;}
+.itp-item-buttons-wrap a.itp-styled {margin:0 6px 8px 0;white-space: nowrap; transition: 0.2s; position: relative; width: auto; display: inline-block; text-align: center; background: #0095f6; border: 1px solid #0095f6; color: #fff; border-radius: 4px; height: 30px; padding: 5px 10px; line-height: 20px; font-size: 14px; font-weight: bold; }
+.itp-item-buttons-wrap a.itp-styled:hover {color:#fff;}
+.itp-item-buttons-wrap a.itp-styled.itp-button-delete {background: #fff; color: #222; margin: 0 10px 10px 0; font-weight: normal; border-color: #ccc;}
+.itp-item-buttons-wrap a.itp-styled.itp-button-delete:hover {color:#000;}
+.itp-button-wrap {display:inline-block;}
+
+/* EDIT-DELETE FORM */
+.itp-form {display:inline-block;width:100%;padding:40px 25px;}
+.itp-form.itp-form-delete {padding:25px 25px;}
+.itp-form .itp-header {display:inline-block;width:100%;font-size:24px;line-height:28px;font-weight:bold;color:#222;margin:0 0 20px 0;}
+.itp-form .itp-row {display:inline-block;width:100%;font-size:15px;line-height:20px;font-weight:normal;color:#333;margin:0 0 20px 0;}
+.itp-form .itp-row input[type="text"] {margin:0;display:inline-block;width:100%;max-width:320px;height:46px;padding:0 10px;font-size:15px;line-height:18px;}
+.itp-form .itp-row.itp-button-row {margin:0;}
+.itp-form .itp-row button[type="submit"] {transition:0.15s;color:#fff;background:#444;border-radius:4px;padding:12px 25px;text-decoration:none;border:none;box-shadow:none;font-size:15px;font-weight:bold;line-height:16px;}
+.itp-form .itp-row button[type="submit"]:hover {text-decoration:none;color:#fff;background:#000;border:none;}
+.itp-form .itp-row.itp-row-confm {margin:15px 0 5px 0;}
+.itp-form .itp-row.itp-row-confi input[type="text"] {width:200px;height:32px;letter-spacing:8px;font-size:14px;background:#f0f0f0;color:#000;font-weight:bold;padding:0 8px;}
+
+/* MODAL DESIGN */
+.modal-cover {display:none;position:fixed;top:0;left:0;bottom:0;right:0;z-index:991;background:rgba(0,0,0,0.75);}
+#itpModal {display:none;overflow:hidden;background:#fff;position:fixed;width:640px;height:480px;top:50%;left:50%;transform:translate(-50%, -50%);max-width: calc(100% - 20px); max-height: calc(100% - 20px);z-index:995;box-shadow: 0 5px 30px rgb(0 0 0 / 70%);}
+#itpModal.modal-fullscreen {width:auto;height:auto;top:0;left:0;right:0;bottom:0;margin:0;border-radius:0;box-shadow:none;transform:none;max-width:100%;max-height:100%;}
+#itpModal .modal-body {position:initial;padding:0;}
+#itpModal .modal-close { cursor: pointer; border-radius: 5px; transition: 0.2s; position: absolute; z-index: 99; color: #555; text-align: center; top: 8px; right: 8px; width: 34px; height: 34px; font-size: 18px;}
+#itpModal .modal-close svg {width:auto;height:18px;margin:8px 0;display:inline-block;transition: 0.2s;}
+#itpModal .modal-close:hover {-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+#itpModal .modal-content {position:absolute;right:0;bottom:0;top:0;left:0;}
+#itpModal .modal-content .modal-iframe, #itpModal .modal-loader {background: #fff url(../img/loader.gif) no-repeat center center; background-size: 80px;border:none;padding:0;position:absolute;top:0;left:0;width:100%;height:100%;}
+#itpModal, #itpModal .modal-content, #itpModal .modal-content .modal-iframe {border-radius:5px;}
+#itpModal .modal-is-inline .modal-content {overflow-y:auto;}
